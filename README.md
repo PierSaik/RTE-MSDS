@@ -1,7 +1,7 @@
 # RTE - Machine Stable Domain Search
 
 # Objectives 
-The package provides the python code to create the stable domain of a generator for the dynamic simulator Eurostag. 
+The package provides the python code to create the simulation stable domain of a generator for the dynamic simulator Eurostag. 
 
 # Install 
 Just copy the MachineStableDomainSearch.py and the CreateMachineDomain.py in a eurostag simulation directory and import it with python. Several inputs are required that will be listed below. It has been tested on Windows 7
