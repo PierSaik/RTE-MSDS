@@ -1,0 +1,9 @@
+avr1
+avr2
+gover1
+gover2
+
+If Eurostag is installed, these regulators can be found in :
+~\Eurostag-5.1.0-COM\Tutorial\Exemple1
+~\Eurostag-5.1.0-COM\Tutorial\Exemple2
+
