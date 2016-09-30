@@ -23,7 +23,7 @@ echo.
 set /p dictFile= Indiquer le fichier dictionnaire : 
 echo.
 
-echo Les generateurs a traiter sont :
+echo Les generateurs a traite sont :
 type %generatorsFile%
 echo.
 
