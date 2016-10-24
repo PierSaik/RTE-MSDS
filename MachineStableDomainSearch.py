@@ -881,6 +881,9 @@ def Fraffinement(domain_data,faces,boundary_data,P_boundaries,Q_boundaries,U_bou
 
 		Used in :
 			- main (version 1 and 3)
+			
+		TO DO :
+			- Correct upper bound of error between Convex hull and tangent planes domain (var : error_max)
 	"""
 
 	# Local variables :
