@@ -403,9 +403,9 @@ def main(diagUQPath, typediag, drawPlane, domainsupport, domaincorners, domainra
 			# for i in range(0,len(dataUQRef)):
 			# 	plt.scatter(dataUQRef[i,0],dataUQRef[i,1], color='green', s=10)
 			plt.fill(dataUQRef[:,0],dataUQRef[:,1], color='green', alpha=1, label='Reference')
-			plot_title = "Diagramme UQ a " + str(round(P_draw,1)) + " MW"
-			plt.xlabel('U Tension (kV)', fontsize='x-large')
-			plt.ylabel('Q Puissance reactive (MVar)', fontsize='x-large')
+			plot_title = "UQ Diagram at " + str(round(P_draw,1)) + " MW"
+			plt.xlabel('U Voltage (kV)', fontsize='x-large')
+			plt.ylabel('Q Reactive Power (MVar)', fontsize='x-large')
 
 		# Wrapping up visualisation :
 		# ---------------------------
@@ -420,7 +420,7 @@ def main(diagUQPath, typediag, drawPlane, domainsupport, domaincorners, domainra
 		plt.draw()
 		# plt.show()
 		
-	plt.legend(loc='best', shadow=True, fontsize='large')
+	plt.legend(loc='best', shadow=True, fontsize='xx-large')
 	if (len(P_draw_array) > 1):
 		fig.savefig("Diag_UQ_multiple.png")
 	else:
